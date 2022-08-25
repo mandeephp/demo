@@ -1,0 +1,26 @@
+ul {
+  border-bottom: 1px solid #ccc;
+  list-style: none;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+}
+li {
+  background-image: linear-gradient(to bottom, transparent 50%, #A2D39C 50%, #A2D39C 95%, #7CC576 95%);
+  background-size: 100% 200%;
+  background-position: top center;
+  color: #666;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.25s ease-in-out;
+}
+li:hover {
+  background-position: bottom center;
+  color: rgba(0, 0, 0, 0.75);
+}
+li a {
+  color: #666;
+  display: block;
+  padding: 1rem 0;
+  transition: all 0.25s ease-in-out;
+}

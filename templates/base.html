@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/nav.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}" />
+    <title>Template is working</title>
+</head>
+<body>
+{% block navbar %}
+<nav>
+  <ul>
+    <li><a href="#" title="Home">Home</a></li>
+    <li><a href="#" title="Blog">Blog</a></li>
+    <li><a href="#" title="Work">Work</a></li>
+    <li><a href="#" title="Resources">Resources</a></li>
+    <li><a href="#" title="Meta">Meta</a></li>
+  </ul>
+</nav>
+{% endblock %}
+
+{% block footer %}
+<section>
+  <h1>CANDY</h1>
+</section>
+<div class="footer">
+  <div id="button"></div>
+  <div id="container">
+    <div id="cont">
+      <div class="footer_center">
+        <h3>QDAGRW</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}
+
+</form>
+</body>
+</html>
